@@ -1,7 +1,7 @@
 <footer class="bg-color3 text-white py-5">
     <div class="container mx-auto px-4 xl:px-0 flex justify-between">
         <div class="flex gap-3 justify-center">
-            <a href="{{ route('user.home') }}" class="font-bold hover:text-color1 transition-colors">WeesataPku</a><span>&copy; 2021. Sistem Informasi 5D Kel. 4</span>
+            <a href="{{ route('user.home') }}" class="font-bold hover:text-color1 transition-colors">WeesataPku</a><span>&copy; 2022. Camprodatic Kel. 2</span>
         </div>
     
         <div class="flex items-center gap-5">
