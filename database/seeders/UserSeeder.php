@@ -27,5 +27,37 @@ class UserSeeder extends Seeder
             'isAdmin' => false,
             'password' => bcrypt('johndoe'),
         ]);
+
+        User::create([
+            'name' => 'Dhea Ananda',
+            'email' => 'dheaanan15@gmail.com',
+            'isAdmin' => true,
+            'password' => bcrypt('dhea'),
+        ]);
+        User::create([
+            'name' => 'Fikri Haikal',
+            'email' => 'fikrihaikal261202.com',
+            'isAdmin' => true,
+            'password' => bcrypt('fikri'),
+        ]);
+        User::create([
+            'name' => 'Delvi Hastari',
+            'email' => 'delvihastari@gmail.com',
+            'isAdmin' => true,
+            'password' => bcrypt('delvi'),
+        ]);
+        User::create([
+            'name' => 'Suri Wulandari',
+            'email' => 'suriwulandari@gmail.com',
+            'isAdmin' => true,
+            'password' => bcrypt('suri'),
+        ]);
+        User::create([
+            'name' => 'Delvi Nur Aini',
+            'email' => 'delvinuraini@gmail.com',
+            'isAdmin' => true,
+            'password' => bcrypt('delvi'),
+        ]);
+
     }
 }
